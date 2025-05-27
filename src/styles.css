@@ -13,7 +13,7 @@ body {
 }
 
 .app-title {
-	text-align: center;
+	text-align: center !important;
 	color: #333;
 	margin-bottom: 30px;
 }

@@ -87,3 +87,37 @@
 	color: #777;
 	font-size: 14px;
 }
+
+.forecast-title {
+	text-align: center;
+	margin: 20px 0 10px;
+	color: #333;
+	border-top: 1px solid #eee;
+	padding-top: 20px;
+}
+
+.forecast-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.forecast-day {
+	background-color: #f8f9fa;
+	border-radius: 8px;
+	padding: 10px;
+	text-align: center;
+	flex: 1;
+	min-width: 100px;
+	color: slategrey;
+}
+
+.forecast-day p {
+	margin: 5px 0;
+}
+
+.forecast-day img {
+	width: 50px;
+	height: 50px;
+}
